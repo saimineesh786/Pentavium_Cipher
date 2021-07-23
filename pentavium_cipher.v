@@ -1,3 +1,8 @@
+/* 
+	Date (Initial Commit) : 23/07/2002
+	Pentavium_Sequentaial_HDL_CODE
+	Uses Five Neighbourhood Cellular Automata with radius = 2
+*/
 module output_rule(out,rule,s_minus_2,s_minus_1,s,s_plus_1,s_plus_2);
 	output reg out ;
 	input [1:0] rule ;
